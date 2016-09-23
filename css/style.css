@@ -1,0 +1,53 @@
+.background-image{
+	background-image: url("../image/13_drops.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:270px;
+
+}
+.splitter{
+	height:100px;
+}
+
+
+ .background-image > h1{
+	color:white;
+	text-align: center;
+}
+
+.list-item {
+	list-style: none;
+	padding:15px;
+	margin-left:10%;
+	border-bottom:1px solid white;
+	text-align: left;
+}
+.list-item:hover{
+	color:#118cdc;
+
+}
+.ex{
+	padding:10px 0px 10px 0px;
+	display: none;
+}
+.col-lg-4{
+
+	background-color:#1E1E1E;
+}
+.menu{
+	width:100%;
+	padding:0;
+}
+
+.lista{
+	padding:30px;
+	list-style: none;
+	float:left;
+	text-align: center;
+	color:white;
+}
+
+.lista:hover > .ex{
+	display:block;
+}
+
